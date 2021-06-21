@@ -1,6 +1,7 @@
 # For renaming multiple files from a list of names
 import os
 
+
 # reading names from a txt file and storing it in a list 
 try:
   file = open('<Filename.txt>', 'r')
@@ -15,7 +16,7 @@ except:
 finally:
   file.close()
 
-
+  
 # renaming all the files in the provided directory
 try:
   for filename in os.listdir("<directory-name>"):
